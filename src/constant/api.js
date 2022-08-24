@@ -3,5 +3,5 @@
  */
 
 export default {
-    repo_list: '/user/repos'
-}
+  repo_list: "/user/repos",
+};

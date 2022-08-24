@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import axios from './http'
-import store from './store/store'
-import router from './router'
-import App from './App.vue'
-import VueMaterial from 'vue-material'
+import Vue from "vue";
+import axios from "./http";
+import store from "./store/store";
+import router from "./router";
+import App from "./App.vue";
+import VueMaterial from "vue-material";
 
 Vue.use(VueMaterial);
 
@@ -11,9 +11,9 @@ Vue.use(VueMaterial);
 Vue.prototype.axios = axios;
 
 new Vue({
-    el: '#app',
-    axios,
-    router,
-    store,
-    render: h => h(App)
-}).$mount('#app');
+  el: "#app",
+  axios,
+  router,
+  store,
+  render: (h) => h(App),
+}).$mount("#app");
